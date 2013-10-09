@@ -1,0 +1,33 @@
+{
+   "background": {
+      "scripts": [ "datascripts/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "datascripts/jquery.min.js", "datascripts/globals.js", "datascripts/content.js" ],
+      "matches": [ "http://*.freewar.de/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "style/shoppreis.css" ],
+      "js": [ "datascripts/shoppreis.js" ],
+      "matches": [ "http://w3w.appspot.com/freewar_shoppreise.html", "https://w3w.appspot.com/freewar_shoppreise.html" ]
+   } ],
+   "description": "Demonstriert einige Sachen auf FW welche das Erlebnis verbessern sollen. Loesche diese Erweiterung wenn du alles getestet hast.",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "#FwTester",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "#FwTester"
+   },
+   "permissions": [ "tabs", "http://*.freewar.de/*", "storage" ],
+   "version": "0.0.0.3",
+   "web_accessible_resources": [ "scripts/script1.js", "scripts/script2.js", "scripts/script3.js", "scripts/script4.js", "scripts/script5.js", "scripts/script4.tastensteuerung.config.js", "datascripts/jquery.min.js", "scripts/shortcut.js" ]
+}

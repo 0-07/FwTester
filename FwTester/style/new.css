@@ -1,0 +1,89 @@
+
+.thirditem:hover {
+    background-color: #f0f0f0;
+}
+.wot { float: left; }
+.wot a { color: #fff; }
+.choices { float: right; }
+.box:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+.box {
+    font-family: arial, sans-serif; font-size: 12px; margin: 5px 20px 5px 5px; padding: 0px; width: 575px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+    min-width: 70px;
+    outline: 0;
+    padding: 0 8px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    margin: 2px;
+}
+span.box {
+    padding: 0 8px;
+    margin: 0;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 2px;
+}
+.box:hover {
+    text-decoration: underline;
+}
+.selected {
+    border: 1px solid #000 !important;
+    text-decoration: line-through !important;
+    background-color: #999 !important;
+    background-image: none !important;
+}
+.box2 {
+    background-color: #a60000;
+    border: 1px solid #7a0000;
+    color: white;
+    background-image: -webkit-linear-gradient(top,#a60000,#990000);
+    background-image: -moz-linear-gradient(top,#a60000,#990000);
+    background-image: -ms-linear-gradient(top,#a60000,#990000);
+    background-image: -o-linear-gradient(top,#a60000,#990000);
+    background-image: linear-gradient(top,#a60000,#990000);
+}
+.box2:focus {
+    -moz-box-shadow: inset 0 0 0 1px #fff;
+    -ms-box-shadow: inset 0 0 0 1px #fff;
+    -o-box-shadow: inset 0 0 0 1px #fff;
+    -webkit-box-shadow: inset 0 0 0 1px #fff;
+    box-shadow: inset 0 0 0 1px #fff;
+    outline: 1px solid #a60000;
+    outline: 0 transparent;
+    border: 1px solid white;
+    border: 1px solid transparent;
+}
+
+
+.box4 {
+    background-color: #444;
+    border: 1px solid #333333;
+    color: white;
+    background-image: -webkit-linear-gradient(top,#444,#222);
+    background-image: -moz-linear-gradient(top,#444,#222);
+    background-image: -ms-linear-gradient(top,#444,#222);
+    background-image: -o-linear-gradient(top,#444,#222);
+    background-image: linear-gradient(top,#444,#222);
+}
+}
+.box4:focus {
+    -moz-box-shadow: inset 0 0 0 1px #000;
+    -ms-box-shadow: inset 0 0 0 1px #000;
+    -o-box-shadow: inset 0 0 0 1px #000;
+    -webkit-box-shadow: inset 0 0 0 1px #000;
+    box-shadow: inset 0 0 0 1px #000;
+    outline: 1px solid #EFEFEF;
+    outline: 0 transparent;
+    border: 1px solid black;
+    border: 1px solid transparent;
+}
