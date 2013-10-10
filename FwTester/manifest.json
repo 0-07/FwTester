@@ -28,6 +28,7 @@
       "default_title": "#FwTester"
    },
    "permissions": [ "tabs", "http://*.freewar.de/*", "storage" ],
+   "update_url": "https://raw.github.com/0-07/FwTester/master/FwTester_update.xml",
    "version": "0.0.0.3",
    "web_accessible_resources": [ "scripts/script1.js", "scripts/script2.js", "scripts/script3.js", "scripts/script4.js", "scripts/script5.js", "scripts/script4.tastensteuerung.config.js", "datascripts/jquery.min.js", "scripts/shortcut.js" ]
 }
